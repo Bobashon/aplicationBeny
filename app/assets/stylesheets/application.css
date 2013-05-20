@@ -12,19 +12,22 @@
  *= require_tree .
  */
 
+body {
+    background-color: #100606;
+    background-image: url(http://umag2.com/imgs/bg.jpg);
+    background-repeat: repeat-x;
+}
 
 
 #wrapper {
     font-family: Arial;
-    background-color: #99CCCC;
-    border-radius: 15px;
-    border: 2px solid #005050;
+    background-color: #FFFFFF;
+    border: 2px outset #505050;
     padding: 20px;
-    margin: 70px;
-    margin-top: 20px;
-    color: #FFF;
-    height: 1200px;
-    box-shadow: 0px 20px 50px 0px rgba(0,0,0,.3);
-
+    margin: 130px;
+    margin-top: -20px;
+    color: #505050;
+    height: 1000px;
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,1);
 }
 
