@@ -9,7 +9,7 @@
     <file path="/static_pages_spec.rb" changelist="e6152d6f-58db-4b0d-ade9-dba9f72d7d25" time="1369085016311" ignored="false" />
     <file path="/home.html.erb" changelist="e6152d6f-58db-4b0d-ade9-dba9f72d7d25" time="1369083683863" ignored="false" />
     <file path="/help.html.erb" changelist="e6152d6f-58db-4b0d-ade9-dba9f72d7d25" time="1369086206591" ignored="false" />
-    <file path="/routes.rb" changelist="e6152d6f-58db-4b0d-ade9-dba9f72d7d25" time="1369084059854" ignored="false" />
+    <file path="/routes.rb" changelist="e6152d6f-58db-4b0d-ade9-dba9f72d7d25" time="1369087155485" ignored="false" />
     <file path="/static_pages_controller.rb" changelist="e6152d6f-58db-4b0d-ade9-dba9f72d7d25" time="1369084086999" ignored="false" />
     <file path="$PROJECT_DIR$/log/test.log" changelist="e6152d6f-58db-4b0d-ade9-dba9f72d7d25" time="1369084216556" ignored="false" />
     <file path="/about.html.erb" changelist="e6152d6f-58db-4b0d-ade9-dba9f72d7d25" time="1369085663234" ignored="false" />
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="23" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+            <state line="56" column="32" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.625">
               <folding />
             </state>
           </provider>
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="547" selection-end="930" vertical-scroll-proportion="0.375">
+            <state line="8" column="26" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +125,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
         <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
@@ -133,6 +132,7 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -215,6 +215,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="requests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static_pages_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static_pages_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -641,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="4" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
@@ -692,7 +699,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="547" selection-end="930" vertical-scroll-proportion="0.375">
+        <state line="8" column="26" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="32" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.625">
           <folding />
         </state>
       </provider>
