@@ -1,61 +1,35 @@
 require 'spec_helper'
 
-describe "StaticPages" do
+describe "Paginas estaticas" do
 
-  let(:base_title) { "Ruby on Rails Tutorial Sample App | " }
+  subject { page }
 
-  describe "Static Pages" do
-    it "Debe tener la palabra 'Sample App'" do
-      # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
-      visit '/static_pages/home'
-      page.should have_content('Sample App')
-    end
+  describe "Pagina inicial" do
+    before { visit root_path }
 
-    it "Deben tener el titulo 'Home'" do
-      visit '/static_pages/home'
-      page.should have_selector('title', :text => "#{@base_title}Home")
-    end
-
+    it { should have_selector('h1',    text: 'Bienvenidos') }
+    it { should have_selector('title', text: fulltitle('')) }
+    it { should_not have_selector 'title', text: '| Inicio' }
   end
 
-  describe "Help page" do
+  describe "Pagina Ayuda" do
+    before { visit help_path }
 
-    it "Debe tener la palabra 'Help'" do
-      visit '/static_pages/help'
-      page.should have_content('Help')
-    end
-
-    it "Deben tener el titulo 'Help'" do
-      visit '/static_pages/help'
-      page.should have_selector('title', :text => "#{@base_title}Help")
-    end
-
+    it { should have_selector('h1',    text: 'Ayuda') }
+    it { should have_selector('title', text: fulltitle('Ayuda')) }
   end
 
-  describe "About page" do
+  describe "Pagina Nosotros" do
+    before { visit about_path }
 
-    it "Debe tener la palabra 'About Us'" do
-      visit '/static_pages/about'
-      page.should have_content('About Us')
-    end
-
-    it "Deben tener el titulo 'About Us'" do
-      visit '/static_pages/about'
-      page.should have_selector('title', :text => "#{@base_title}About Us")
-    end
+    it { should have_selector('h1',    text: 'Conocenos') }
+    it { should have_selector('title', text: fulltitle('Conocenos')) }
   end
 
-  describe "Contact page" do
+  describe "Pagina Contacto" do
+    before { visit contact_path }
 
-    it "Debe tener la palabra 'Contact Us'" do
-      visit '/static_pages/contact'
-      page.should have_content('Contact Us')
-    end
-    it "Deben tener el titulo 'Contact'" do
-      visit '/static_pages/contact'
-      page.should have_selector('title', :text => "#{@base_title}Contact Us")
-    end
-
+    it { should have_selector('h1',    text: 'Contacto') }
+    it { should have_selector('title', text: fulltitle('Contacto')) }
   end
-
 end

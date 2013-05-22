@@ -10,24 +10,71 @@
  *
  *= require_self
  *= require_tree .
- */
+
 
 body {
     background-color: #100606;
     background-image: url(http://umag2.com/imgs/bg.jpg);
     background-repeat: repeat-x;
+    font-family: Arial;
 }
 
 
+#header {
+    background-color: #100606;
+    border: 2px #505050 ridge;
+    margin: -10px;
+    padding: 10px;
+    height: 30px;
+    overflow: hidden;
+}
+
+
+#header ul li{
+    display: inline;
+    color: #FFF;
+}
+
+#header a:link{
+    color: #FFF;
+}
+
+#header a:hover{
+    color: #EEE;
+}
+
+#header a:visited{
+    color: #FFF;
+}
+
+
+
+#logo{
+    font-size: 30px;
+    padding: 5px;
+    margin: 0px;
+    float: left;
+}
+
+#menu {
+    padding: 5px;
+    margin: 0px;
+    margin-left: 33%;
+    float: left;
+}
+
+
+
 #wrapper {
-    font-family: Arial;
     background-color: #FFFFFF;
     border: 2px outset #505050;
+    border-top-width: 0px;
     padding: 20px;
     margin: 130px;
-    margin-top: -20px;
+    margin-top: 8px;
     color: #505050;
     height: 1000px;
     box-shadow: 0px 20px 50px 0px rgba(0,0,0,1);
 }
 
+*/

@@ -1,0 +1,94 @@
+@import "bootstrap";
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding-top: 60px;
+}
+
+section {
+    overflow: auto;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.center {
+    text-align: center;
+    h1 {
+      margin-bottom: 10px;
+    }
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.9em;
+  color: #fff;
+  letter-spacing: -1px;
+  padding-top: 7px;
+  margin-left: 30px;
+  font-weight: bold;
+  line-height: 1;
+  &:hover {
+    color: #DDD;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #999;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+
+#lista_nombres{
+  text-align: left;
+}
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+  a {
+    color: #555;
+    &:hover {
+      color: #222;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
