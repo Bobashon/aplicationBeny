@@ -1,0 +1,9 @@
+<% provide(:title, "Sign in") %>
+<h1>Ingresa</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= render 'form' %>
+    <p>Eres nuevo? <%= link_to "Registrate Ahora!", signup_path %></p>
+  </div>
+</div>

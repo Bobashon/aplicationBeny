@@ -20,12 +20,20 @@ describe User do
                      password: "foobar", password_confirmation: "foobar")
   end
 
+
+  describe "Recordando al usuario" do
+    before { @user.save }
+    its(:remember_token) { should_not be_blank }
+  end
+
   subject { @user }
 
   it { should respond_to(:name) }
   it { should respond_to(:email) }
   it { should respond_to(:password_digest) }
   it { should respond_to(:password_confirmation) }
+  it { should respond_to(:remember_token) }
+  it { should respond_to(:authenticate) }
 
   it { should be_valid }
 
