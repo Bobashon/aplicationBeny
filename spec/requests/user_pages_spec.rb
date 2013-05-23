@@ -31,6 +31,22 @@ describe "User pages" do
       it "no debe crear el usuario" do
         expect { click_button submit }.not_to change(User, :count)
       end
+
+      describe "mensajes de error" do
+        before { click_button submit }
+
+        it { should have_selector('title', text: 'Registrarse') }
+        it { should have_content('error') }
+      end
+
+      describe "Despues de guardar" do
+        before { click_button submit }
+        let(:user) { User.find_by_email('user@example.com') }
+
+        it { should have_selector('title', text: user.name) }
+        it { should have_selector('div.alert.alert-success', text: 'Bienvenido') }
+      end
+
     end
 
     describe "Informacion valida" do
