@@ -1,0 +1,138 @@
+commit 05735313c6c8a359734cd6a2c300901393b4c445
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Thu May 23 18:31:03 2013 -0600
+
+    Terminando el test y funciono
+
+commit 6769d82673d410b27acc9dc843bd8b6dc1763039
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Thu May 23 16:51:26 2013 -0600
+
+    login creado
+
+commit 7d7f6cbb8a863ab386ec9fdca40d746e906c3e55
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Thu May 23 14:51:37 2013 -0600
+
+    Ejericicios del cap 7
+
+commit 1081b709d1ec762b30bd777cf9b8be418c02de37
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Thu May 23 14:37:29 2013 -0600
+
+    Aniadiendo el SSL en produccion
+
+commit fa40645255acf5f5ce71bd31c1378dcacc1512d4
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Thu May 23 14:25:08 2013 -0600
+
+    Terminando el Registro de usuarios
+
+commit a3d4f787d11de06a3af031b666837946f83190c2
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Thu May 23 12:59:58 2013 -0600
+
+    Comenzando con el sign-up
+
+commit aadb57bab1a67081d0ef04d3d306efd48b11252a
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Wed May 22 15:47:28 2013 -0600
+
+    Ejercicios del capitulo 5 terminados
+
+commit e012ec239be7685caade4345116d3215092eb739
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Wed May 22 15:18:14 2013 -0600
+
+    Modificando el Gemfile.lock para subir a Heroku
+
+commit 22deccb31ad44fdf4f47d5d6b3bbef50a969723b
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Wed May 22 15:07:54 2013 -0600
+
+    Modificando el Gemfile para subirlo a Heroku
+
+commit 083cd200597825444a753326cedf1dedd9413c48
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Wed May 22 15:04:38 2013 -0600
+
+    Agregando ciertas rutas y el estilo a la pagina
+
+commit e58f3b95541e03adafda31e6a6a22ec2cc7bda29
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Tue May 21 14:50:32 2013 -0600
+
+    Agregando la pagina de Contacto
+
+commit 7d6ff2c8a9e6580fa89537fd57bdfc00aadb6a00
+Merge: d03e00c 4fee2fe
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Tue May 21 14:22:05 2013 -0600
+
+    Finishing the app
+
+commit 4fee2fe313028574b3985a49930b88ebea561748
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Tue May 21 14:20:17 2013 -0600
+
+    Terminando el ejemplo del tutorial
+
+commit d03e00c07fe273c4e25518f2c1461e75446f51ca
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 16:39:12 2013 -0600
+
+    asd
+
+commit a8fbc12513a36e6fb8c9bbff55b1aa21591bdcec
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 16:37:47 2013 -0600
+
+    Modificando el gitignore
+
+commit 4f82fb7588770da10f08cc869e6a0d14d3b74944
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 16:37:23 2013 -0600
+
+    Modificando el gitignore
+
+commit a3b5ff349fb752e570e5fd738b627a9acd0e6741
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 16:32:56 2013 -0600
+
+    Eliminando el index
+
+commit ba502c1c470cce1f3b9ceb15d175a4f1b685fb0c
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 16:28:32 2013 -0600
+
+    Index
+
+commit d40b0bc083116b40dbfc51d7b6a62da310483d3f
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 16:00:33 2013 -0600
+
+    Cambiando las rutas y quitando el index por default
+
+commit 02a728eab4d709b418d76e6448328192d65dde8d
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 15:54:35 2013 -0600
+
+    Modificando archivos y css
+
+commit ebdb7ae3f21d2a4b1c6f6d69463993f733a2f4e0
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 14:52:43 2013 -0600
+
+    Agregando el controlados de las paginas estaticas
+
+commit 0c9f347019a720f93e84f2b8762b2acea83ebadc
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 14:11:56 2013 -0600
+
+    Modificando el README
+
+commit c116633338ac59b1daf333b33aa8a9c755a8e65b
+Author: Omar <OmarBenitezE@live.com.mx>
+Date:   Mon May 20 14:10:26 2013 -0600
+
+    Iniciando la aplicacion

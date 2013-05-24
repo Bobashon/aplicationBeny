@@ -6,7 +6,7 @@
         <ul class="nav pull-right">
           <li><%= link_to "Inicio", root_path %></li>
           <li><%= link_to "Ayuda",   help_path %></li>
-          <% if !signed_in? %>
+          <% if signed_in? %>
               <li><%= link_to "Users", '#' %></li>
               <li id="fat-menu" class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -17,7 +17,7 @@
                   <li><%= link_to "Configuracion", '#' %></li>
                   <li class="divider"></li>
                   <li>
-                    <%= link_to "Salir", signout_path, method: "delete" %>
+                    <%= link_to "Salir",root_path, method: "delete" %>
                   </li>
                 </ul>
               </li>
