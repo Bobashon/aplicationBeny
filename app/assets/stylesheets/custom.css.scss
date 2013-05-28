@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "ubuntu.css";
 
 $grayLighter : #eee;
 
@@ -9,26 +10,26 @@ $grayLighter : #eee;
 }
 
 html {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 body {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 section {
-    overflow: auto;
+  overflow: auto;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .center {
-    text-align: center;
-    h1 {
-      margin-bottom: 10px;
-    }
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 
 
