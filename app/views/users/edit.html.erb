@@ -1,14 +1,11 @@
-<<<<<<< HEAD
+
 <% provide(:title, "Configuracion") %>
-=======
-<% provide(:title, "Edit user") %> 
->>>>>>> a790298ef97c948f79dbcd906a2f9aa8d1d83358
-<h1>Update your profile</h1>
+<% provide(:title, "Edit user") %>
+<h1>Configuracion</h1>
 
 <div class="row">
   <div class="span6 offset3">
     <%= form_for(@user) do |f| %>
-<<<<<<< HEAD
         <%= render 'shared/error_messages' %>
 
         <%= f.label :name %>
@@ -24,23 +21,6 @@
         <%= f.password_field :password_confirmation %>
 
         <%= f.submit "Guardar", class: "btn btn-large btn-primary" %>
-=======
-      <%= render 'shared/error_messages' %>
-
-      <%= f.label :name %>
-      <%= f.text_field :name %>
-
-      <%= f.label :email %>
-      <%= f.text_field :email %>
-
-      <%= f.label :password %>
-      <%= f.password_field :password %>
-
-      <%= f.label :password_confirmation, "Confirm Password" %>
-      <%= f.password_field :password_confirmation %>
-
-      <%= f.submit "Save changes", class: "btn btn-large btn-primary" %>
->>>>>>> a790298ef97c948f79dbcd906a2f9aa8d1d83358
     <% end %>
 
     <%= gravatar_for @user %>
