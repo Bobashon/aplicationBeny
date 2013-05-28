@@ -57,4 +57,5 @@ describe "Paginas estaticas" do
     let(:page_title) { 'Contacto' }
     it_should_behave_like "staticpages"
   end
+  
 end

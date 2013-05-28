@@ -38,9 +38,8 @@ describe "User pages" do
         it { should have_selector('title', text: 'Registrarse') }
         it { should have_content('error') }
       end
-
-
     end
+ end
 
     describe "Informacion valida" do
       before do
@@ -66,13 +65,29 @@ describe "User pages" do
       describe "Saliendo de la aplicacion" do
         before { click_link "Salir" }
         it { should have_link('Ingresar') }
+
+      
       end
+   end
 
 
+  describe "edit" do
+    let(:user) { FactoryGirl.create(:user) }
+    before { visit edit_user_path(user) }
 
+    describe "page" do
+      it { should have_content("Update your profile") }
+      it { should have_title("Edit user") }
+      it { should have_link('change', href: 'http://gravatar.com/emails') }
     end
 
+     describe "with invalid information" do
+      before { click_button "Save changes" }
+
+      it { should have_content('error') }
+     end
   end
+<<<<<<< HEAD
 
   describe "edit" do
     let(:user) { FactoryGirl.create(:user) }
@@ -111,3 +126,6 @@ describe "User pages" do
 
 
 end
+=======
+end
+>>>>>>> a790298ef97c948f79dbcd906a2f9aa8d1d83358
