@@ -1,4 +1,9 @@
 StaticPagesApp::Application.routes.draw do
+  resources :users do
+    member do
+      get :following, :followers
+    end
+  end
   get "users/new"
 
   get "static_pages/home"
@@ -7,7 +12,7 @@ StaticPagesApp::Application.routes.draw do
   get "static_pages/about"
   get "static_pages/contact"
 =end
-  resources :users
+  #resources :users
   resources :sessions, only: [:new, :create, :destroy]
   get "users/new"
 
@@ -19,8 +24,9 @@ StaticPagesApp::Application.routes.draw do
   match '/signout', to: 'sessions#destroy', via: :delete
 
   resources :users
-  resources :sessions, only: [:new, :create, :destroy]
-  resources :microposts, only: [:create, :destroy]
+  resources :sessions,      only: [:new, :create, :destroy]
+  resources :microposts,    only: [:create, :destroy]
+  resources :relationships, only: [:create, :destroy]
   get "users/new"
 
 
