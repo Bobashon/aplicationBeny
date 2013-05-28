@@ -31,7 +31,6 @@ describe "Autenticacion" do
     it { should_not have_selector('div.alert.alert-error') }
   end
 
-<<<<<<< HEAD
 
   describe "authorization" do
 
@@ -53,6 +52,4 @@ describe "Autenticacion" do
     end
   end
 
-=======
->>>>>>> a790298ef97c948f79dbcd906a2f9aa8d1d83358
 end
