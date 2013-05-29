@@ -83,4 +83,4 @@ group :production do
   gem 'pg', '>= 0.12.2'
 end
 
-gem 'therubyracer' , '0.11.4'
+#gem 'therubyracer' , '0.11.4'
