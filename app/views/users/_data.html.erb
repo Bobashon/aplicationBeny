@@ -1,15 +1,15 @@
 <%= form_for(@user) do |f| %>
     <%= render 'shared/error_messages', :object => @user %>
-    <%= f.label :name %>
+    <%= f.label :name, "Nombre" %>
     <%= f.text_field :name %>
 
-    <%= f.label :email %>
+    <%= f.label :email, "Correo Electronico" %>
     <%= f.text_field :email %>
 
-    <%= f.label :password %>
+    <%= f.label :password, "Contraseña" %>
     <%= f.password_field :password %>
 
-    <%= f.label :password_confirmation, "Confirm Password" %>
+    <%= f.label :password_confirmation, "Confirmar Contraseña" %>
     <%= f.password_field :password_confirmation %>
 
     <%= f.submit "Aceptar", class: "btn btn-large btn-primary" %>
